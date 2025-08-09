@@ -14,8 +14,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <nav>
+      <ul class="nav-links">
+        <a href="index.html">
+          <img src="./assests/lg.png" class="logo" />
+        </a>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#weather-update">Weather</a></li>
+        <li><a href="#footer">About</a></li>
+      </ul>
+    </nav>
     <div class="container">
-      <div class="box">
+      <div class="box" id="weather-update">
         <div class="search">
           <input
             type="text"
@@ -55,6 +65,12 @@
           </div>
         </div>
       </div>
+    </div>
+    <div id="footer">
+      <p>
+        &copy; 2025 Weather App. All rights reserved. Made with ❤️ by Jashan
+        Maan
+      </p>
     </div>
     <script src="app.js"></script>
   </body>
