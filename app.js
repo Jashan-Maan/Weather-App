@@ -1,4 +1,5 @@
 let url = "https://api.openweathermap.org/data/2.5/weather?units=metric&appid=";
+let apiKey = "69a6ecc2d818efa244a91365f5a4c169";
 
 let searchInput = document.querySelector(".city-input");
 let btn = document.querySelector(".btn");
